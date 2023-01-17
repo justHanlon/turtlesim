@@ -59,6 +59,9 @@
   <exec_depend>rospy</exec_depend>
   <exec_depend>turtlesim</exec_depend>
 
+    #the follwoing two were added from the ros tutorial for creating srv
+  <build_depend>message_generation</build_depend>
+  <exec_depend>message_runtime</exec_depend>
 
   <!-- The export tag contains other, unspecified, tags -->
   <export>
